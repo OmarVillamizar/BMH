@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/BMH/static/css/main.11e68a3d.css",
+    "main.js": "/BMH/static/js/main.cad1b103.js",
+    "static/media/hsistemas.png": "/BMH/static/media/hsistemas.31323574ce5b259350a1.png",
+    "static/media/pdf.png": "/BMH/static/media/pdf.a606153b3dffe4720782.png",
+    "index.html": "/BMH/index.html",
+    "main.11e68a3d.css.map": "/BMH/static/css/main.11e68a3d.css.map",
+    "main.cad1b103.js.map": "/BMH/static/js/main.cad1b103.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11e68a3d.css",
+    "static/js/main.cad1b103.js"
+  ]
+}
