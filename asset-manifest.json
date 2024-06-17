@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/BMH/static/css/main.90b11406.css",
+    "main.css": "/BMH/static/css/main.e1c76586.css",
     "main.js": "/BMH/static/js/main.be017dc7.js",
     "static/media/hsistemas.png": "/BMH/static/media/hsistemas.31323574ce5b259350a1.png",
     "static/media/pdf.png": "/BMH/static/media/pdf.a606153b3dffe4720782.png",
     "index.html": "/BMH/index.html",
-    "main.90b11406.css.map": "/BMH/static/css/main.90b11406.css.map",
+    "main.e1c76586.css.map": "/BMH/static/css/main.e1c76586.css.map",
     "main.be017dc7.js.map": "/BMH/static/js/main.be017dc7.js.map"
   },
   "entrypoints": [
-    "static/css/main.90b11406.css",
+    "static/css/main.e1c76586.css",
     "static/js/main.be017dc7.js"
   ]
 }
