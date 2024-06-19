@@ -23,3 +23,9 @@
 .overflow{
     overflow: hidden;
 }
+
+.card {
+    max-width: 350px; 
+    margin: 0 auto; 
+    transition: all 0.5s linear; 
+}
