@@ -5,6 +5,7 @@ import ComplejidadPDF from './ComplejidadPDF';
 import Teoria from './Teoria';
 import hImage from './imgs/hsistemas.png';
 import Footer from './Footer';
+import UfpsLogo from './imgs/ufps.jpg'
 import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -28,6 +29,7 @@ export default function Home() {
     <div className="App">
       <header className="bg-home">
         <div className="header-content">
+          <img src={UfpsLogo} id="headerImage2" />
           <img src={hImage} id="headerImage" alt="Header Logo" />
           <h1 id="headerTitle">Algoritmo Boyer Moore Horspool</h1>
           <nav className="navbar navbar-expand-lg navbar-dark">
@@ -58,7 +60,7 @@ export default function Home() {
       <main className="main-content">
         {renderComponent()}
       </main>
-      <Footer />
+      <Footer className="footer-content" />
     </div>
   );
 }
