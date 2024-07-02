@@ -74,6 +74,7 @@ const Simulador = () => {
                 color.push(posicion+j)
                 pasosCodigo.push({ linea: 33, desc: `Pregunta si ya se ha encontrado toda la subcadena en el texto.`,color: [...color], colorSalto:posicion+j});
                 if (j === 0) {
+                    posiciones.push(posicion);
                     pasosCodigo.push({ linea: 34, desc: `Se ha encontrado toda la subcadena en el texto, por lo tanto se guarda la posición encontrada en el arreglo de posiciones.`,color: [...color], colorSalto:-1});
                     posicion += subcadena.length;
                     pasosCodigo.push({ linea: 35, desc: `Se realiza el salto máximo en la tabla de saltos, correspondiente a ${subcadena.length}.` ,color: [...color], colorSalto:-1});
