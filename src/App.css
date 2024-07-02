@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 .App{
-  height: 100vh;
   font-family: 'Montserrat', sans-serif;
-  background: rgb(106,106,106);
   background: linear-gradient(180deg, rgba(106,106,106,1) 0%, rgba(157,157,157,1) 36%, rgba(157,157,157,1) 85%, rgba(185,185,185,1) 93%, rgba(190,190,190,1) 94%, rgba(209,209,209,1) 98%);
 }
