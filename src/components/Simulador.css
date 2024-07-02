@@ -1,44 +1,98 @@
 .simulador-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .simulador-form {
-    width: 80%;
-    max-width: 400px;
-    margin-bottom: 20px;
-  }
-  
-  .simulador-label {
-    margin-bottom: 5px;
-    color: white;
-  }
-  
-  .simulador-input {
-    width: 100%;
-    padding: 5px;
-    margin-bottom: 10px;
-  }
-  
-  .simulador-button {
-    width: 100%;
-    padding: 8px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .simulador-button:hover {
-    background-color: #0056b3;
-  }
-  
-  .simulador-result {
-    margin-top: 20px;
-  }
-  
-  .pre-scrollable {
-    font-size: 0.5199em; 
-  }  
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.simulador-left {
+  margin-right: 0.8em;
+  max-width: 285px;
+}
+
+pre {
+  font-size: 0.74em;
+  max-height: 400px;
+  overflow: auto;
+  width: 776px;
+}
+
+.simulador-right {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  max-width: 18em;
+  min-width: 18em;
+
+}
+
+.simulador-label {
+  margin-bottom: 5px;
+  color: #292929;
+}
+
+.simulador-input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.simulador-button {
+  width: 100%;
+  padding: 8px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.simulador-button:hover {
+  background-color: #0056b3;
+}
+
+.simulador-result {
+  margin-top: 10px;
+  color: white;
+}
+
+.simulador-code h2 {
+  font-size: 1.1em;
+  color: white;
+}
+
+#explicacion-titulo{
+  padding-top: 0.3em;
+  text-align: start;
+  color: #292929;
+}
+
+#btnD{
+  margin-right: 0.4em;
+}
+
+#Tsaltos{
+  margin-top: 0.6em;
+}
+
+.tdd{
+  border: 1px solid;
+  padding: 0 0.4em 0 0.4em;
+  font-size: 1.3em;
+  margin-bottom: 0.3em;
+}
+
+.tablaArrays{
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.divTablas{
+  width: 20em;
+  overflow: auto;
+}
+
+.tituloJava{
+  font-size: 1.85em;
+}  
